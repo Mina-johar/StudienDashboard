@@ -14,4 +14,5 @@ class Modul:
 
     def set_pruefungsleistung(self, note: float, datum: date, bestanden: bool):
         """Fügt eine Prüfungsleistung hinzu."""
+
         self.pruefungsleistung = Pruefungsleistung(note, datum, bestanden)
