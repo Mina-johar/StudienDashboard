@@ -1,0 +1,17 @@
+# modul.py
+from typing import Optional
+from datetime import date
+from entities.pruefungsleistung import Pruefungsleistung
+
+class Modul:
+    """
+    Repräsentiert ein Studienmodul mit Name, ECTS und optionaler Prüfungsleistung.
+    """
+    def __init__(self, name: str, ects: int):
+        self.name: str = name
+        self.ects: int = ects
+        self.pruefungsleistung: Optional[Pruefungsleistung] = None  # 0..1 Beziehung
+
+    def set_pruefungsleistung(self, note: float, datum: date, bestanden: bool):
+        """Fügt eine Prüfungsleistung hinzu."""
+        self.pruefungsleistung = Pruefungsleistung(note, datum, bestanden)
