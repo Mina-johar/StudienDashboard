@@ -1,0 +1,15 @@
+# semester.py
+from typing import List
+from entities.modul import Modul
+
+class Semester:
+    """
+    Repräsentiert ein Semester mit einer Nummer und Modulen.
+    """
+    def __init__(self, nummer: int):
+        self.nummer: int = nummer
+        self.module: List[Modul] = []  # Aggregation: Ein Semester hat viele Module
+
+    def add_modul(self, modul: Modul):
+        """Fügt ein Modul zum Semester hinzu."""
+        self.module.append(modul)
