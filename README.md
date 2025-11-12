@@ -17,9 +17,11 @@ StudienDashboard/
 # Installation und Ausführung
 
 Ins Verzeichnis wechseln
+
 cd StudienDashboard
 
 Programm starten
+
 python main.py
 
 
