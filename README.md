@@ -13,11 +13,13 @@ StudienDashboard/
         ├── modul.py  
         └── pruefungsleistung.py
 
-        Installation und Ausführung
-# Ins Verzeichnis wechseln
+
+# Installation und Ausführung
+
+Ins Verzeichnis wechseln
 cd StudienDashboard
 
-# Programm starten
+Programm starten
 python main.py
 
 
