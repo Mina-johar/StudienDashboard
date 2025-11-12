@@ -29,4 +29,6 @@ python main.py
 - Notendurchschnittsberechnung
 - ECTS-Fortschrittsverfolgung
 - Modul-und Prüfungsverwaltung
-  
+
+
+  Mina Johar
