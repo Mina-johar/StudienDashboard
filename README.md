@@ -31,4 +31,7 @@ python main.py
 - Modul-und Prüfungsverwaltung
 
 
-  Mina Johar
+
+
+
+#  Mina Johar
