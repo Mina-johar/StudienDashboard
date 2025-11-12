@@ -7,6 +7,7 @@ StudienDashboard/
 ├── main.py  
 ├── README.md  
 └── entities/  
+
          ├── __init__.py 
          ├── studiengang.py  
          ├── semester.py  
