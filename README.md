@@ -7,12 +7,11 @@ StudienDashboard/
 ├── main.py  
 ├── README.md  
 └── entities/  
-        ├── __init__.py 
-        
-        ├── studiengang.py  
-        ├── semester.py  
-        ├── modul.py  
-        └── pruefungsleistung.py
+         ├── __init__.py 
+         ├── studiengang.py  
+         ├── semester.py  
+         ├── modul.py  
+         └── pruefungsleistung.py
 
 
 # Installation und Ausführung
